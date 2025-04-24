@@ -1,0 +1,210 @@
+@import url('./reset.css');
+
+body {
+    background-color: #000;
+    font-family: "Raleway", sans-serif;
+}
+
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.banner{
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #33A8DB;
+    }
+
+.banner-content{
+    margin: auto;
+    display: flex;
+    width: 510px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.banner-content h1{
+    font-size: 2rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(top, #33A8DB 0%, #1472B7 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+#course-content{
+    margin: auto;
+    display: flex;
+    height: 510px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#course-content h2{
+    font-size: 2rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(top, #33A8DB 0%, #1472B7 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#course-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    width: 792px;
+    text-align: center;
+}
+
+.module{
+    background-color: #252525;
+    padding: 16px 0;
+    border-radius: 100px ;
+    border: 1px solid #33A8DB;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    width: 538px;
+    height: 51px;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.module span{
+    color: #33A8DB;
+}
+
+#transform-world{
+    background-image: url('../images/woman-code.png');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0;    
+    height: 363px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#transform-world p{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    width: 244px;
+    font-weight: 900;
+    margin-left: 190px;
+    margin-top: 50px;
+    text-shadow: 3px 2px 0px #33A8DB;
+}
+
+div button{
+    background-color: transparent;
+    border: 2px solid #33A8DB;
+    color: #33A8DB;
+    width: 326px;
+    height: 57px;
+    /* border-radius: 30px; */
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+
+#professional-challenges{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 363px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+
+}
+
+#professional-challenges h2{
+    font-size: 2rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(top, #33A8DB 0%, #1472B7 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#professional-challenges p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    width: 792px;
+    text-align: center;
+}
+
+#professional-challenges img{
+    width: 447px;
+    height: 270px;
+}
+
+footer{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 169px;
+    background: -webkit-linear-gradient(top, #00070a 20%, #00070a 25%, #00070a 70%);  
+    border-top: 1px solid #33A8DB;
+    /* border-bottom: 1px solid #33A8DB; */
+}
+
+/* footer img{
+    width: 326px;
+    height: 326px;
+} */
+
+footer p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+
